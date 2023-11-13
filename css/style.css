@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.card {
+    border-radius: 40px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px rgb(189, 189, 188);
+    min-width: 70%;
+    }
