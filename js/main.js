@@ -18,6 +18,5 @@ let finalPrice = price.toFixed(2);
 // HTML
 let risultatoElement = document.getElementById("finalPrice").addEventListener("click", function () {
     finalPrice = price.toFixed(2);
-    // PREZZO VISUALIZZATO SULLA PAGINA
     document.getElementById("finalPriceShow").innerHTML = `Price: ${finalPrice}€`;
 });
